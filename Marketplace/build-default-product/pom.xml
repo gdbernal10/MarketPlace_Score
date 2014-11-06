@@ -4,7 +4,7 @@
   <groupId>co.edu.uniandes.csw.miso4204</groupId>
   <artifactId>build-default-product</artifactId>
   <version>1.0</version>
-  <packaging>pom</packaging>
+  <packaging>pom</packaging> 
   <name>build-default-product</name>
     <modules>
     	  <module>../product.web</module>
