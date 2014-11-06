@@ -32,7 +32,7 @@ define([], function() {
         defaults: {
  
 		 'value' : '' ,  
-		 'date' : '' ,  
+		 'date' : Date.now(),  
 		 'name' : '' ,  
 		 'userId' : '' ,  
 		 'productscoreId' : ''        },
