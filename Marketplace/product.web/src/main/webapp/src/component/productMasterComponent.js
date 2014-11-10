@@ -1,5 +1,6 @@
 define(['component/_productMasterComponent'], function(_ProductMasterComponent) {
     App.Component.ProductMasterComponent = _ProductMasterComponent.extend({
+        /*
         initialize: function() {
             this._ProductMasterComponent.addRecordAction({
                 name: 'addToCart',
@@ -15,6 +16,8 @@ define(['component/_productMasterComponent'], function(_ProductMasterComponent) 
 //            this.setupProductComponent();
 //            this.setupCartMasterComponent();
         },
+        
+        
         render: function(domElementId) {
 			if (domElementId) {
 				var rootElement = $("#"+domElementId)
@@ -97,6 +100,8 @@ define(['component/_productMasterComponent'], function(_ProductMasterComponent) 
             this.productComponent.clearSelectedRecords();
             this.render();
         }
+        
+       */
     });
 
     return App.Component.ProductMasterComponent;
